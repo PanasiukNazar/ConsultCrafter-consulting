@@ -708,6 +708,12 @@ strong {
   padding: 40px;
 }
 
+.contact-section {
+    @media (max-width: 992px) {
+        margin-bottom: 40px;
+    }
+}
+
 .contact-form .form-control {
   border-radius: 0;
   font-weight: var(--font-weight-normal);
