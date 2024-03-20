@@ -16,7 +16,7 @@ function sendForm() {
     // Test the input against the regular expression
     if (emailRegex.test(emailInput)) {
         document.getElementById('result').textContent = '';
-        window.location.href = newPath;
+        window.location.href += newPath;
     } else {
         document.getElementById('result').textContent = 'Invalid email. Please enter a valid email address.';
     }
