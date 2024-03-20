@@ -704,46 +704,38 @@ strong {
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/
-.contact-info {
-  padding: 40px;
+/* start contact */
+#contact{
+    background: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#contact #form .row {
+    justify-content: center;
 }
 
-.contact-section {
-    @media (max-width: 992px) {
-        margin-bottom: 40px;
-    }
+#contact .form-control{
+    background: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
 }
 
-.contact-form .form-control {
-  border-radius: 0;
-  font-weight: var(--font-weight-normal);
-  padding-top: 12px;
-  padding-bottom: 12px;
+#contact input{
+    height: 50px;
 }
-
-.contact-form button[type='submit'] {
-  background: var(--dark-color);
-  border: none;
-  border-radius: 100px;
-  color: var(--white-color);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  padding: 16px;
-  transition: all 0.6s ease-out;
+#contact input[type="submit"]{
+    border: 2px solid #55acee;
+    font-weight: bold;
+    color: #55acee;
+    border-radius: 35px;
 }
-
-.contact-form button[type='submit']:hover {
-  background: var(--primary-color);
-}
-
-.form-label {
-  color: var(--p-color);
-  font-weight: var(--font-weight-bold);
-}
-
-.map-iframe {
-  display: block;
-  filter: grayscale(100);
+#contact input[type="submit"]:hover{
+    background: #55acee;
+    color: #fff;
 }
 
 /*---------------------------------------
